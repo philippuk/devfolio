@@ -3,73 +3,105 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Yan Hoi Puk (Philip)',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Yan Hoi Puk | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
-    // Optional: Twitter account handle
-    author: `@rfitzio`,
+    description: `3rd Year Electronic and Information Engineering student`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/philippuk`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/yan-hoi-puk`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hi, I am Philip, a Third Year Electronic and Information Engineering student from Imperial College London. I am interested in Software Development, Computer Architecture and Machine Learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Embedded System - Demetris and Music Synthesizer',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Demetris - An agriculture IOT device for monitoring the status of crops using Raspberry Pi and Python. Music Synthesizer - A digital piano with various functionalities, built on STM32 with C++',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'F# - ISSIE',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Adding new features to Interactive Schematic Simulator with Integrated Editor (ISSIE). Built with F#',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Machine Learning - Decision Tree and Mini Neural Network Library',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Built a decision tree model and mini neural network library with Python',
+      },
+      {
+        name: 'Computer Architecture - CPU Model investigation and CPU Profiling',
+        description:
+          'CPU Model Investigation - Investigate the lowest energy consuming CPU model with Simplescalar simulator. CPU Profling - Profile a Arm CPU running an FFT algorithm with matrix operations using perf',
+      },
+      {
+        name: 'Computer Architecture - MIPS CPU and C-to-MIPS compiler',
+        description:
+          'MIPS CPU - A functional MIPS CPU and testbench built with Verilog. C-to-MIPS compiler - A functional C-to-MIPS compiler built with lex, yacc, bison and C++',
+      },
+      {
+        name: 'Robotics - Robotics Simulation',
+        description:
+          'A series of robotics simulation practicals learning different methods of controlling and localisation the robot (Monte Carlo, SLAM) using CoppeliaSim',
+      },
+      {
+        name: 'Pong Game',
+        description:
+          'A online real-time Pong Game built with FPGA, AWS and Python',
+      },
+      {
+        name: '2nd Year Project - Mars Rover',
+        description:
+          'Responsible for the Command Module of the \'Mars Rover\'. Built a control panel that remote control the Rover to navigate an area autonomously using Python and A* algorithm',
+      },
+      {
+        name: '1st Year Project - Circuit Simulator',
+        description:
+          'Built a circuit simulator similar to LTSpice using C++',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Arm',
+        description: 'Part Time Undergraduate, Software Engineer at Fast Model Team, Responsible for Arm v8/v9-A PMU Architecture Update for the Fast Model, April 2022 - Present',
+        link: 'https://www.arm.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Accenture HK',
+        description: 'Digital Business Analyst Internship, Responsible for SIT/UAT of an mobile application, August 2021 - October 2021',
+        link: 'https://www.accenture.com/hk-en',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Programming Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, C++, SQL, JavaScript, HTML, PHP, F#',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Other Skills',
+        description: 'Matlab, Verilog, TCP/UDP, Agile, Git',
       },
       {
-        name: 'Other',
+        name: 'Language',
+        description: 'English - Fluent, Cantonese - Native, Mandarin - Fluent',
+      },
+    ],
+    education: [
+      {
+        name: 'Imperial College London',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'MEng Electronic and Information Engineering, 2019 - 2023',
+        link: 'https://www.imperial.ac.uk/',
+      },
+      {
+        name: 'Diocesan Boys\' School',
+        description: 'International Baccalaureate Diploma Program, 2015 - 2019, 41/45, Mathematics HL - 7, Physics HL - 7, Economics HL - 7',
+        link: 'https://www.dbs.edu.hk/',
       },
     ],
   },

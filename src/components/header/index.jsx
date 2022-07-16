@@ -3,6 +3,7 @@ import get from 'lodash/get';
 import React from 'react';
 
 import profileImg from '../../images/profile.jpg';
+import CV from '../../images/CV_one_page.pdf';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -66,6 +67,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           )}
+          {
+            <li className={classes.item}>
+            <a className={classes.link} href={CV}>
+                CV
+            </a>
+          </li>
+          }
         </ul>
       </div>
     </div>
