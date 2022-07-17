@@ -13,7 +13,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/yan-hoi-puk`,
     // Content of the About Me section
-    about: `Hi, I am Philip, a Third Year Electronic and Information Engineering student from Imperial College London. I am interested in Software Development, Computer Architecture and Machine Learning.`,
+    about: `Hi, I am Philip, a Third Year Electronic and Information Engineering student from Imperial College London. I am interested in Software Development, Embedded System and Robotics.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
