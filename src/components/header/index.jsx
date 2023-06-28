@@ -3,7 +3,7 @@ import get from 'lodash/get';
 import React from 'react';
 
 import profileImg from '../../images/profile.jpg';
-import CV from '../../images/CV_one_page.pdf';
+import CV from '../../images/CV_V4.pdf';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',

@@ -7,15 +7,35 @@ module.exports = {
     // Main Site Title
     title: `Yan Hoi Puk | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `3rd Year Electronic and Information Engineering student`,
+    description: `Final Year Electronic and Information Engineering student`,
     // Optional: Github account URL
     github: `https://github.com/philippuk`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/yan-hoi-puk`,
     // Content of the About Me section
-    about: `Hi, I am Philip, a Third Year Electronic and Information Engineering student from Imperial College London. I am interested in Software Development, Embedded System and Robotics.`,
+    about: `Hi, I am Philip, a Final Year Electronic and Information Engineering student from Imperial College London. I am interested in Software Development, Computer Architecture and Machine Learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Final Year Project - Generating high-coverage RISC-V test suite',
+        description:
+          'Utilize coverage-guided fuzzing and fuzzing by proxy to generate RISC-V test suite with libFuzzer',
+      },
+      {
+        name: 'Deep Learning',
+        description:
+          'Built a convoluational network, variational autoencoder and generative adversarial network using Pytorch',
+      },
+      {
+        name: 'Scheduling and Resource Allocation',
+        description:
+          'Develop a branch and bound algorithm to schedule image processing tasks with dependencies and constrains using Python',
+      },
+      {
+        name: 'Hardware and Software Verification',
+        description:
+          'Built a verification suite for AHBLite Peripherals, VGA and GPIO using Questasim and JasperGold. Verify functions and mathematic theorems with dafny and Isabelle',
+      },
       {
         name: 'Embedded System - Demetris and Music Synthesizer',
         description:
@@ -66,7 +86,7 @@ module.exports = {
     experience: [
       {
         name: 'Arm',
-        description: 'Part Time Undergraduate, Software Engineer at Fast Model Team, Responsible for Arm v8/v9-A PMU Architecture Update for the Fast Model, April 2022 - Present',
+        description: 'Part Time Undergraduate, Software Engineer at Fast Model Team, Responsible for Arm v8/v9-A PMU Architecture Update for the Fast Model, April 2022 - April 2023',
         link: 'https://www.arm.com/',
       },
       {
@@ -80,11 +100,11 @@ module.exports = {
       {
         name: 'Programming Languages',
         description:
-          'Python, C++, SQL, JavaScript, HTML, PHP, F#',
+          'Python, C++, SQL, JavaScript, HTML, PHP, F#, dafny',
       },
       {
         name: 'Other Skills',
-        description: 'Matlab, Verilog, TCP/UDP, Agile, Git',
+        description: 'Matlab, Verilog, TCP/UDP, Agile, Git, Pytorch, libFuzzer, Questasim, Jaspergold, Isabelle',
       },
       {
         name: 'Language',
